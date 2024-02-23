@@ -8,7 +8,8 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
-
+// export const dynamic = 'force-dynamic';
+// export const revalidate = 10;
 export default async function Page() {
   return (
     <main>
