@@ -8,6 +8,12 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
+import { Metadata } from 'next';
+
+export const metaData: Metadata = {
+  title: 'Dashboard',
+};
+
 // export const dynamic = 'force-dynamic';
 // export const revalidate = 10;
 export default async function Page() {
