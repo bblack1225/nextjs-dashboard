@@ -8,11 +8,11 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
-// import { Metadata } from 'next';
+import { Metadata } from 'next';
 
-// export const metaData: Metadata = {
-//   title: 'Dashboard',
-// };
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 // export const dynamic = 'force-dynamic';
 // export const revalidate = 10;
